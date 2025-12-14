@@ -222,3 +222,10 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  arrow: arrow {
+    compatible = "zmk,behavior-macro";
+    label = "ARROW";
+    #binding-cells = <0>;
+    bindings = <&kp MINUS &kp GT>;
+  };
